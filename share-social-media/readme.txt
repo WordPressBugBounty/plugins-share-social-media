@@ -5,7 +5,7 @@ Donate link: https://scriptstown.com/
 Requires at least: 5.0
 Tested up to: 6.6
 Requires PHP: 7.0
-Stable tag: 1.5.9
+Stable tag: 1.6.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,9 +13,11 @@ Add social sharing icons to a post or page of your WordPress website and allow v
 
 == Description ==
 
-**Social Icons Sticky** plugin adds social media sharing icons to a WordPress site. The plugin adds social share icons to posts or pages of your WordPress website and allows visitors to share the content of a post or page on various social media sites. It automatically picks the featured image, post title, and meta description for sharing depending on the social media. You can choose which social icons to enable. It supports multiple icon placement positions. You can place social icons before and after the page/post content. Also, you can place sticky icons on the right or left side of your WordPress site.
+**Social Icons Sticky** plugin adds social media sharing icons to your WordPress website. The plugin adds social share icons to posts or pages of your WordPress site and allows visitors to share the content of a post or page on various social media sites. It automatically picks the featured image, post title, and meta description of the page for sharing it depending on the social media platform.
 
-Social sharing icons are a crucial aspect of WordPress website design, SEO, and functionality. They allow users to easily share content from your website on their own social media profiles. This can result in increased website traffic, interaction, and, ultimately, brand awareness.
+You can choose which social icons to enable for the sticky or content area. It supports multiple icon placement positions. It includes quick options to place social icons before and after the page/post content. Also, you can place sticky icons on the right or left side of your WordPress site.
+
+Social sharing icons are a crucial aspect of WordPress website design, **SEO**, and functionality. Having social sharing icons allows users to easily share content from your website on their own social media profiles. The content can also include links back to your WordPress site. This can result in increased website traffic, interaction, and, ultimately, brand awareness.
 
 Furthermore, including social sharing icons on your website can help to improve your search engine optimization, visibility, and reach of your website, as well as your online presence and reputation.
 
@@ -53,6 +55,10 @@ On your WordPress, go to *Settings* -> *Social Share* menu page to configure the
 2. Icons Design Settings
 
 == Changelog ==
+
+= 1.6.0 =
+* Tested up to 6.6.2.
+* Readme updated.
 
 = 1.5.9 =
 * Tested up to 6.6.
