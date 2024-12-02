@@ -48,7 +48,7 @@ class STSSM_Helper {
 				),
 				'twitter'   => array(
 					'class' => 'ssm-fab ssm-fa-twitter',
-					'label' => esc_attr__( 'Share on Twitter', 'share-social-media' ),
+					'label' => esc_attr__( 'Share on X', 'share-social-media' ),
 				),
 				'linkedin'  => array(
 					'class' => 'ssm-fab ssm-fa-linkedin',
@@ -68,7 +68,11 @@ class STSSM_Helper {
 				),
 				'xtwitter'  => array(
 					'class' => 'ssm-fab ssm-fa-x-twitter',
-					'label' => esc_attr__( 'Share on X (Twitter)', 'share-social-media' ),
+					'label' => esc_attr__( 'Share on X', 'share-social-media' ),
+				),
+				'bluesky'   => array(
+					'class' => 'ssm-fab ssm-fa-bluesky',
+					'label' => esc_attr__( 'Share on Bluesky', 'share-social-media' ),
 				),
 				'blogger'   => array(
 					'class' => 'ssm-fab ssm-fa-blogger',
@@ -107,7 +111,7 @@ class STSSM_Helper {
 	}
 
 	public static function icons_content() {
-		return array( 'facebook', 'linkedin', 'pinterest', 'reddit', 'tumblr', 'xtwitter', 'blogger', 'evernote', 'getpocket', 'wordpress', 'line', 'whatsapp', 'envelope' );
+		return array( 'facebook', 'linkedin', 'pinterest', 'reddit', 'tumblr', 'xtwitter', 'bluesky', 'blogger', 'evernote', 'getpocket', 'wordpress', 'line', 'whatsapp', 'envelope' );
 	}
 
 	public static function icons_sticky_side() {
@@ -115,7 +119,7 @@ class STSSM_Helper {
 	}
 
 	public static function icons_sticky_all() {
-		return array( 'facebook', 'linkedin', 'pinterest', 'reddit', 'tumblr', 'xtwitter', 'blogger', 'evernote', 'getpocket', 'wordpress', 'line', 'whatsapp', 'envelope' );
+		return array( 'facebook', 'linkedin', 'pinterest', 'reddit', 'tumblr', 'xtwitter', 'bluesky', 'blogger', 'evernote', 'getpocket', 'wordpress', 'line', 'whatsapp', 'envelope' );
 	}
 
 	public static function get_sticky_placement() {

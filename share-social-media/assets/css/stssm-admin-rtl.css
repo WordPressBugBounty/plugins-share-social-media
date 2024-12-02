@@ -30,7 +30,7 @@
 	font-style: normal;
 	font-weight: 900;
 	font-display: block;
-	src: url("../webfonts/fa-solid-900.woff2?v=2") format("woff2"), url("../webfonts/fa-solid-900.ttf?v=2") format("truetype");
+	src: url("../webfonts/fa-solid-900.woff2?v=3") format("woff2"), url("../webfonts/fa-solid-900.ttf?v=3") format("truetype");
 }
 
 @font-face {
@@ -38,7 +38,7 @@
 	font-style: normal;
 	font-weight: 400;
 	font-display: block;
-	src: url("../webfonts/fa-brands-400.woff2?v=2") format("woff2"), url("../webfonts/fa-brands-400.ttf?v=2") format("truetype");
+	src: url("../webfonts/fa-brands-400.woff2?v=3") format("woff2"), url("../webfonts/fa-brands-400.ttf?v=3") format("truetype");
 }
 
 .ssm-fa-facebook-f:before {
@@ -67,6 +67,10 @@
 
 .ssm-fa-x-twitter:before {
 	content: "\e61b";
+}
+
+.ssm-fa-bluesky:before {
+	content: "\e671";
 }
 
 .ssm-fa-blogger:before {
@@ -148,7 +152,7 @@
 }
 
 .stssm-social-icons .ssm-fa-linkedin {
-	background: #0077b5;
+	background: #0a66c2;
 	color: white;
 }
 
@@ -169,6 +173,11 @@
 
 .stssm-social-icons .ssm-fa-x-twitter {
 	background: #000000;
+	color: white;
+}
+
+.stssm-social-icons .ssm-fa-bluesky {
+	background: #0a7aff;
 	color: white;
 }
 
@@ -193,7 +202,7 @@
 }
 
 .stssm-social-icons .ssm-fa-wordpress-simple {
-	background: #21759b;
+	background: #3858e9;
 	color: white;
 }
 

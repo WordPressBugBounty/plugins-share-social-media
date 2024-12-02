@@ -2,11 +2,11 @@
 # This file is distributed under the same license as the Social Icons Sticky plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Social Icons Sticky 1.6.1\n"
+"Project-Id-Version: Social Icons Sticky 1.6.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/share-social-"
 "media\n"
-"POT-Creation-Date: 2024-10-22T22:37:41+00:00\n"
-"PO-Revision-Date: 2024-10-23 04:07+0530\n"
+"POT-Creation-Date: 2024-12-02T07:12:37+00:00\n"
+"PO-Revision-Date: 2024-12-02 12:42+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hi_IN\n"
@@ -18,25 +18,30 @@ msgstr ""
 "X-Domain: share-social-media\n"
 
 #. Plugin Name of the plugin
-#: admin/inc/class-stssm-admin-menu.php:10 admin/inc/setting/index.php:14
+#: share-social-media.php admin/inc/class-stssm-admin-menu.php:10
+#: admin/inc/setting/index.php:14
 msgid "Social Icons Sticky"
 msgstr "शेयर सामाजिक मीडिया"
 
 #. Plugin URI of the plugin
+#: share-social-media.php
 msgid "https://scriptstown.com/wordpress-plugins/share-social-media/"
 msgstr ""
 
 #. Description of the plugin
+#: share-social-media.php
 msgid ""
 "Add social sharing icons to a post or page of your WordPress website and "
 "allow visitors to share your content on various social media sites."
 msgstr ""
 
 #. Author of the plugin
+#: share-social-media.php
 msgid "ScriptsTown"
 msgstr ""
 
 #. Author URI of the plugin
+#: share-social-media.php
 msgid "https://scriptstown.com/"
 msgstr ""
 
@@ -278,8 +283,8 @@ msgstr ""
 msgid "Share on Facebook"
 msgstr ""
 
-#: includes/class-stssm-helper.php:51
-msgid "Share on Twitter"
+#: includes/class-stssm-helper.php:51 includes/class-stssm-helper.php:71
+msgid "Share on X"
 msgstr ""
 
 #: includes/class-stssm-helper.php:55
@@ -298,39 +303,39 @@ msgstr ""
 msgid "Share on Tumblr"
 msgstr ""
 
-#: includes/class-stssm-helper.php:71
-msgid "Share on X (Twitter)"
-msgstr ""
-
 #: includes/class-stssm-helper.php:75
-msgid "Share on Blogger"
+msgid "Share on Bluesky"
 msgstr ""
 
 #: includes/class-stssm-helper.php:79
-msgid "Share on Evernote"
+msgid "Share on Blogger"
 msgstr ""
 
 #: includes/class-stssm-helper.php:83
-msgid "Share on Flipboard"
+msgid "Share on Evernote"
 msgstr ""
 
 #: includes/class-stssm-helper.php:87
-msgid "Share on Pocket"
+msgid "Share on Flipboard"
 msgstr ""
 
 #: includes/class-stssm-helper.php:91
-msgid "Share on WordPress.com"
+msgid "Share on Pocket"
 msgstr ""
 
 #: includes/class-stssm-helper.php:95
-msgid "Share on Line"
+msgid "Share on WordPress.com"
 msgstr ""
 
 #: includes/class-stssm-helper.php:99
-msgid "Share on Whatsapp"
+msgid "Share on Line"
 msgstr ""
 
 #: includes/class-stssm-helper.php:103
+msgid "Share on Whatsapp"
+msgstr ""
+
+#: includes/class-stssm-helper.php:107
 msgid "Share via Email"
 msgstr ""
 

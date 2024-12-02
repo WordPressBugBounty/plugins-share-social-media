@@ -198,6 +198,9 @@
 				} else if ( event.target.matches( '.ssm-xtwitter i' ) ) {
 					var url = 'https://x.com/intent/post?url=' + pageUrl + '&text=' + text;
 					stssmSocialWindow( url );
+				} else if ( event.target.matches( '.ssm-bluesky i' ) ) {
+					var url = 'https://bsky.app/intent/compose?text=' + title + '%20' + pageUrl;
+					stssmSocialWindow( url );
 				} else if ( event.target.matches( '.ssm-blogger i' ) ) {
 					var url = 'https://www.blogger.com/blog-this.g?u=' + pageUrl + '&n=' + title + '&t=' + desc;
 					stssmSocialWindow( url );
