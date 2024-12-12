@@ -22,7 +22,7 @@ class STSSM_Share {
 			ob_start();
 			echo '<ul class="stssm-social-icons stssm-content-social-icons">';
 			foreach ( $icons_content as $icon => $val ) {
-				echo ( '<li class="ssm-' . esc_attr( $icon ) . '"><i tabindex="0" role="button" class="' . esc_attr( $val['class'] ) . '" aria-label="' . esc_attr( $val['label'] ) . '"></i></li>' );
+				echo ( '<li class="ssm-' . esc_attr( $icon ) . '"><i tabindex="0" role="button" class="' . esc_attr( $val['class'] ) . '" aria-label="' . esc_attr( $val['label'] ) . '" title="' . esc_attr( $val['label'] ) . '"></i></li>' );
 			}
 			echo '</ul>';
 			$social_icons = ob_get_clean();

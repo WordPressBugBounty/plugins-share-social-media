@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Social Icons Sticky plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Social Icons Sticky 1.6.2\n"
+"Project-Id-Version: Social Icons Sticky 1.6.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/share-social-media\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-12-02T07:12:37+00:00\n"
+"POT-Creation-Date: 2024-12-12T09:58:21+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: share-social-media\n"
@@ -270,64 +270,67 @@ msgid "Circle"
 msgstr ""
 
 #: includes/class-stssm-helper.php:47
-msgid "Share on Facebook"
+msgid "Click to share on Facebook"
 msgstr ""
 
 #: includes/class-stssm-helper.php:51
-#: includes/class-stssm-helper.php:71
-msgid "Share on X"
+msgid "Click to share on LinkedIn"
 msgstr ""
 
 #: includes/class-stssm-helper.php:55
-msgid "Share on LinkedIn"
+msgid "Click to share on X"
 msgstr ""
 
 #: includes/class-stssm-helper.php:59
-msgid "Share on Pinterest"
+msgid "Click to share on Bluesky"
 msgstr ""
 
 #: includes/class-stssm-helper.php:63
-msgid "Share on Reddit"
+msgid "Click to share on Mastodon"
 msgstr ""
 
 #: includes/class-stssm-helper.php:67
-msgid "Share on Tumblr"
+msgid "Click to share on Tumblr"
+msgstr ""
+
+#: includes/class-stssm-helper.php:71
+msgid "Click to share on Reddit"
 msgstr ""
 
 #: includes/class-stssm-helper.php:75
-msgid "Share on Bluesky"
+msgid "Click to share on Pinterest"
 msgstr ""
 
 #: includes/class-stssm-helper.php:79
-msgid "Share on Blogger"
+msgid "Click to share on Blogger"
 msgstr ""
 
 #: includes/class-stssm-helper.php:83
-msgid "Share on Evernote"
+msgid "Click to share on Evernote"
 msgstr ""
 
 #: includes/class-stssm-helper.php:87
-msgid "Share on Flipboard"
+msgid "Click to share on Flipboard"
 msgstr ""
 
 #: includes/class-stssm-helper.php:91
-msgid "Share on Pocket"
+msgid "Click to share on Pocket"
 msgstr ""
 
 #: includes/class-stssm-helper.php:95
-msgid "Share on WordPress.com"
+msgid "Click to share on WordPress.com"
 msgstr ""
 
 #: includes/class-stssm-helper.php:99
-msgid "Share on Line"
+msgid "Click to share on Line"
 msgstr ""
 
 #: includes/class-stssm-helper.php:103
-msgid "Share on Whatsapp"
+msgid "Click to share on Whatsapp"
 msgstr ""
 
 #: includes/class-stssm-helper.php:107
-msgid "Share via Email"
+msgid "Click to share via Email"
 msgstr ""
 
 #: public/inc/class-stssm-share.php:192

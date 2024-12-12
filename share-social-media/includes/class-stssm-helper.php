@@ -44,82 +44,82 @@ class STSSM_Helper {
 			array(
 				'facebook'  => array(
 					'class' => 'ssm-fab ssm-fa-facebook-f',
-					'label' => esc_attr__( 'Share on Facebook', 'share-social-media' ),
-				),
-				'twitter'   => array(
-					'class' => 'ssm-fab ssm-fa-twitter',
-					'label' => esc_attr__( 'Share on X', 'share-social-media' ),
+					'label' => esc_attr__( 'Click to share on Facebook', 'share-social-media' ),
 				),
 				'linkedin'  => array(
 					'class' => 'ssm-fab ssm-fa-linkedin',
-					'label' => esc_attr__( 'Share on LinkedIn', 'share-social-media' ),
-				),
-				'pinterest' => array(
-					'class' => 'ssm-fab ssm-fa-pinterest',
-					'label' => esc_attr__( 'Share on Pinterest', 'share-social-media' ),
-				),
-				'reddit'    => array(
-					'class' => 'ssm-fab ssm-fa-reddit',
-					'label' => esc_attr__( 'Share on Reddit', 'share-social-media' ),
-				),
-				'tumblr'    => array(
-					'class' => 'ssm-fab ssm-fa-tumblr',
-					'label' => esc_attr__( 'Share on Tumblr', 'share-social-media' ),
+					'label' => esc_attr__( 'Click to share on LinkedIn', 'share-social-media' ),
 				),
 				'xtwitter'  => array(
 					'class' => 'ssm-fab ssm-fa-x-twitter',
-					'label' => esc_attr__( 'Share on X', 'share-social-media' ),
+					'label' => esc_attr__( 'Click to share on X', 'share-social-media' ),
 				),
 				'bluesky'   => array(
 					'class' => 'ssm-fab ssm-fa-bluesky',
-					'label' => esc_attr__( 'Share on Bluesky', 'share-social-media' ),
+					'label' => esc_attr__( 'Click to share on Bluesky', 'share-social-media' ),
+				),
+				'mastodon'  => array(
+					'class' => 'ssm-fab ssm-fa-mastodon',
+					'label' => esc_attr__( 'Click to share on Mastodon', 'share-social-media' ),
+				),
+				'tumblr'    => array(
+					'class' => 'ssm-fab ssm-fa-tumblr',
+					'label' => esc_attr__( 'Click to share on Tumblr', 'share-social-media' ),
+				),
+				'reddit'    => array(
+					'class' => 'ssm-fab ssm-fa-reddit',
+					'label' => esc_attr__( 'Click to share on Reddit', 'share-social-media' ),
+				),
+				'pinterest' => array(
+					'class' => 'ssm-fab ssm-fa-pinterest',
+					'label' => esc_attr__( 'Click to share on Pinterest', 'share-social-media' ),
 				),
 				'blogger'   => array(
 					'class' => 'ssm-fab ssm-fa-blogger',
-					'label' => esc_attr__( 'Share on Blogger', 'share-social-media' ),
+					'label' => esc_attr__( 'Click to share on Blogger', 'share-social-media' ),
 				),
 				'evernote'  => array(
 					'class' => 'ssm-fab ssm-fa-evernote',
-					'label' => esc_attr__( 'Share on Evernote', 'share-social-media' ),
+					'label' => esc_attr__( 'Click to share on Evernote', 'share-social-media' ),
 				),
 				'flipboard' => array(
 					'class' => 'ssm-fab ssm-fa-flipboard',
-					'label' => esc_attr__( 'Share on Flipboard', 'share-social-media' ),
+					'label' => esc_attr__( 'Click to share on Flipboard', 'share-social-media' ),
 				),
 				'getpocket' => array(
 					'class' => 'ssm-fab ssm-fa-get-pocket',
-					'label' => esc_attr__( 'Share on Pocket', 'share-social-media' ),
+					'label' => esc_attr__( 'Click to share on Pocket', 'share-social-media' ),
 				),
 				'wordpress' => array(
 					'class' => 'ssm-fab ssm-fa-wordpress-simple',
-					'label' => esc_attr__( 'Share on WordPress.com', 'share-social-media' ),
+					'label' => esc_attr__( 'Click to share on WordPress.com', 'share-social-media' ),
 				),
 				'line'      => array(
 					'class' => 'ssm-fab ssm-fa-line',
-					'label' => esc_attr__( 'Share on Line', 'share-social-media' ),
+					'label' => esc_attr__( 'Click to share on Line', 'share-social-media' ),
 				),
 				'whatsapp'  => array(
 					'class' => 'ssm-fab ssm-fa-whatsapp',
-					'label' => esc_attr__( 'Share on Whatsapp', 'share-social-media' ),
+					'label' => esc_attr__( 'Click to share on Whatsapp', 'share-social-media' ),
 				),
 				'envelope'  => array(
 					'class' => 'ssm-fas ssm-fa-envelope',
-					'label' => esc_attr__( 'Share via Email', 'share-social-media' ),
+					'label' => esc_attr__( 'Click to share via Email', 'share-social-media' ),
 				),
 			)
 		);
 	}
 
 	public static function icons_content() {
-		return array( 'facebook', 'linkedin', 'pinterest', 'reddit', 'tumblr', 'xtwitter', 'bluesky', 'blogger', 'evernote', 'getpocket', 'wordpress', 'line', 'whatsapp', 'envelope' );
+		return array( 'facebook', 'linkedin', 'xtwitter', 'bluesky', 'mastodon', 'tumblr', 'reddit', 'pinterest', 'blogger', 'evernote', 'getpocket', 'wordpress', 'line', 'whatsapp', 'envelope' );
 	}
 
 	public static function icons_sticky_side() {
-		return array( 'facebook', 'linkedin', 'reddit', 'xtwitter', 'whatsapp', 'envelope' );
+		return array( 'facebook', 'linkedin', 'xtwitter', 'reddit', 'whatsapp', 'envelope' );
 	}
 
 	public static function icons_sticky_all() {
-		return array( 'facebook', 'linkedin', 'pinterest', 'reddit', 'tumblr', 'xtwitter', 'bluesky', 'blogger', 'evernote', 'getpocket', 'wordpress', 'line', 'whatsapp', 'envelope' );
+		return array( 'facebook', 'linkedin', 'xtwitter', 'bluesky', 'mastodon', 'tumblr', 'reddit', 'pinterest', 'blogger', 'evernote', 'getpocket', 'wordpress', 'line', 'whatsapp', 'envelope' );
 	}
 
 	public static function get_sticky_placement() {

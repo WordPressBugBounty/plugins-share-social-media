@@ -23,7 +23,7 @@
 		for ( var i = 0; i < iconsStickyAllKeys.length; i++ ) {
 			const icon = iconsStickyAllKeys[ i ];
 			const val = iconsStickyAll[ icon ];
-			html += ( '<li class="ssm-' + icon + '"><i tabindex="0" role="button" class="' + val['class'] + '" aria-label="' + val['label'] + '"></i></li>' );
+			html += ( '<li class="ssm-' + icon + '"><i tabindex="0" role="button" class="' + val['class'] + '" aria-label="' + val['label'] + '" title="' + val['label'] + '"></i></li>' );
 		}
 			html += '</ul>' +
 				'</div>' +
@@ -33,7 +33,7 @@
 		for ( var i = 0; i < iconsStickyKeys.length; i++ ) {
 			const icon = iconsStickyKeys[ i ];
 			const val = iconsSticky[ icon ];
-			html += ( '<li class="ssm-' + icon + '"><i tabindex="0" role="button" class="' + val['class'] + '" aria-label="' + val['label'] + '"></i></li>' );
+			html += ( '<li class="ssm-' + icon + '"><i tabindex="0" role="button" class="' + val['class'] + '" aria-label="' + val['label'] + '" title="' + val['label'] + '"></i></li>' );
 		}
 			html += '<li class="ssm-action stssm-expand">' +
 				'<a role="button" class="stssm-more" href="javascript:void(0)" aria-label="' + stssm.label.toggleModal + '" aria-expanded="false"></a>' +
@@ -180,26 +180,26 @@
 				if ( event.target.matches( '.ssm-facebook i' ) ) {
 					var url = 'https://www.facebook.com/sharer.php?u=' + pageUrl;
 					stssmSocialWindow( url );
-				} else if ( event.target.matches( '.ssm-twitter i' ) ) {
-					var url = 'https://x.com/intent/post?url=' + pageUrl + '&text=' + text;
-					stssmSocialWindow( url );
 				} else if ( event.target.matches( '.ssm-linkedin i' ) ) {
 					var url = 'https://www.linkedin.com/sharing/share-offsite/?url=' + pageUrl;
-					stssmSocialWindow( url );
-				} else if ( event.target.matches( '.ssm-pinterest i' ) ) {
-					var url = 'https://www.pinterest.com/pin/create/link/?url=' + pageUrl + '&media=' + media + '&description=' + desc;
-					stssmSocialWindow( url );
-				} else if ( event.target.matches( '.ssm-reddit i' ) ) {
-					var url = 'https://reddit.com/submit?url=' + pageUrl + '&title=' + title;
-					stssmSocialWindow( url );
-				} else if ( event.target.matches( '.ssm-tumblr i' ) ) {
-					var url = 'https://www.tumblr.com/widgets/share/tool?canonicalUrl=' + pageUrl + '&title=' + title + '&caption=' + desc;
 					stssmSocialWindow( url );
 				} else if ( event.target.matches( '.ssm-xtwitter i' ) ) {
 					var url = 'https://x.com/intent/post?url=' + pageUrl + '&text=' + text;
 					stssmSocialWindow( url );
 				} else if ( event.target.matches( '.ssm-bluesky i' ) ) {
 					var url = 'https://bsky.app/intent/compose?text=' + title + '%20' + pageUrl;
+					stssmSocialWindow( url );
+				} else if ( event.target.matches( '.ssm-mastodon i' ) ) {
+					var url = 'https://mastodon.social/share?text=' + title + '%20' + pageUrl;
+					stssmSocialWindow( url );
+				} else if ( event.target.matches( '.ssm-tumblr i' ) ) {
+					var url = 'https://www.tumblr.com/widgets/share/tool?canonicalUrl=' + pageUrl + '&title=' + title + '&caption=' + desc;
+					stssmSocialWindow( url );
+				} else if ( event.target.matches( '.ssm-reddit i' ) ) {
+					var url = 'https://reddit.com/submit?url=' + pageUrl + '&title=' + title;
+					stssmSocialWindow( url );
+				} else if ( event.target.matches( '.ssm-pinterest i' ) ) {
+					var url = 'https://www.pinterest.com/pin/create/link/?url=' + pageUrl + '&media=' + media + '&description=' + desc;
 					stssmSocialWindow( url );
 				} else if ( event.target.matches( '.ssm-blogger i' ) ) {
 					var url = 'https://www.blogger.com/blog-this.g?u=' + pageUrl + '&n=' + title + '&t=' + desc;

@@ -1,5 +1,9 @@
 == Changelog ==
 
+= 1.6.3 =
+* Mastodon added.
+* Accessibility improvements.
+
 = 1.6.2 =
 * Bluesky added.
 * Improvement: Icons updated.

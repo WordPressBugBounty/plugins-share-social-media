@@ -30,7 +30,7 @@
 	font-style: normal;
 	font-weight: 900;
 	font-display: block;
-	src: url("../webfonts/fa-solid-900.woff2?v=3") format("woff2"), url("../webfonts/fa-solid-900.ttf?v=3") format("truetype");
+	src: url("../webfonts/fa-solid-900.woff2?v=4") format("woff2"), url("../webfonts/fa-solid-900.ttf?v=4") format("truetype");
 }
 
 @font-face {
@@ -38,31 +38,15 @@
 	font-style: normal;
 	font-weight: 400;
 	font-display: block;
-	src: url("../webfonts/fa-brands-400.woff2?v=3") format("woff2"), url("../webfonts/fa-brands-400.ttf?v=3") format("truetype");
+	src: url("../webfonts/fa-brands-400.woff2?v=4") format("woff2"), url("../webfonts/fa-brands-400.ttf?v=4") format("truetype");
 }
 
 .ssm-fa-facebook-f:before {
 	content: "\f39e";
 }
 
-.ssm-fa-twitter:before {
-	content: "\f099";
-}
-
 .ssm-fa-linkedin:before {
 	content: "\f08c";
-}
-
-.ssm-fa-pinterest:before {
-	content: "\f0d2";
-}
-
-.ssm-fa-reddit:before {
-	content: "\f1a1";
-}
-
-.ssm-fa-tumblr:before {
-	content: "\f173";
 }
 
 .ssm-fa-x-twitter:before {
@@ -71,6 +55,22 @@
 
 .ssm-fa-bluesky:before {
 	content: "\e671";
+}
+
+.ssm-fa-mastodon:before {
+	content: "\f4f6";
+}
+
+.ssm-fa-tumblr:before {
+	content: "\f173";
+}
+
+.ssm-fa-reddit:before {
+	content: "\f1a1";
+}
+
+.ssm-fa-pinterest:before {
+	content: "\f0d2";
 }
 
 .ssm-fa-blogger:before {
@@ -146,28 +146,8 @@
 	color: white;
 }
 
-.stssm-social-icons .ssm-fa-twitter {
-	background: #1da1f2;
-	color: white;
-}
-
 .stssm-social-icons .ssm-fa-linkedin {
 	background: #0a66c2;
-	color: white;
-}
-
-.stssm-social-icons .ssm-fa-pinterest {
-	background: #e60023;
-	color: white;
-}
-
-.stssm-social-icons .ssm-fa-reddit {
-	background: #ff4500;
-	color: white;
-}
-
-.stssm-social-icons .ssm-fa-tumblr {
-	background: #34526f;
 	color: white;
 }
 
@@ -178,6 +158,26 @@
 
 .stssm-social-icons .ssm-fa-bluesky {
 	background: #0a7aff;
+	color: white;
+}
+
+.stssm-social-icons .ssm-fa-mastodon {
+	background: linear-gradient(to top, #563acc 0%, #6364ff 100%);
+	color: white;
+}
+
+.stssm-social-icons .ssm-fa-tumblr {
+	background: #34526f;
+	color: white;
+}
+
+.stssm-social-icons .ssm-fa-reddit {
+	background: #ff4500;
+	color: white;
+}
+
+.stssm-social-icons .ssm-fa-pinterest {
+	background: #e60023;
 	color: white;
 }
 
