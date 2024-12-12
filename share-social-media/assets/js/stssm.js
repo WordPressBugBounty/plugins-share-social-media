@@ -198,6 +198,9 @@
 				} else if ( event.target.matches( '.ssm-reddit i' ) ) {
 					var url = 'https://reddit.com/submit?url=' + pageUrl + '&title=' + title;
 					stssmSocialWindow( url );
+				} else if ( event.target.matches( '.ssm-threads i' ) ) {
+					var url = 'https://www.threads.net/intent/post?url=' + pageUrl + '&text=' + text;
+					stssmSocialWindow( url );
 				} else if ( event.target.matches( '.ssm-pinterest i' ) ) {
 					var url = 'https://www.pinterest.com/pin/create/link/?url=' + pageUrl + '&media=' + media + '&description=' + desc;
 					stssmSocialWindow( url );

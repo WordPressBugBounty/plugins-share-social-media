@@ -30,7 +30,7 @@
 	font-style: normal;
 	font-weight: 900;
 	font-display: block;
-	src: url("../webfonts/fa-solid-900.woff2?v=4") format("woff2"), url("../webfonts/fa-solid-900.ttf?v=4") format("truetype");
+	src: url("../webfonts/fa-solid-900.woff2?v=5") format("woff2"), url("../webfonts/fa-solid-900.ttf?v=5") format("truetype");
 }
 
 @font-face {
@@ -38,7 +38,7 @@
 	font-style: normal;
 	font-weight: 400;
 	font-display: block;
-	src: url("../webfonts/fa-brands-400.woff2?v=4") format("woff2"), url("../webfonts/fa-brands-400.ttf?v=4") format("truetype");
+	src: url("../webfonts/fa-brands-400.woff2?v=5") format("woff2"), url("../webfonts/fa-brands-400.ttf?v=5") format("truetype");
 }
 
 .ssm-fa-facebook-f:before {
@@ -59,6 +59,10 @@
 
 .ssm-fa-mastodon:before {
 	content: "\f4f6";
+}
+
+.ssm-fa-threads:before {
+	content: "\e618";
 }
 
 .ssm-fa-tumblr:before {
@@ -124,13 +128,13 @@
 
 .stssm-social-icons li {
 	display: inline-block;
-	margin-left: 4px;
+	margin-left: 22px;
 	margin-right: 0;
 }
 
 .stssm-social-icons li {
-	margin-top: 4px !important;
-	margin-bottom: 4px !important;
+	margin-top: 6px !important;
+	margin-bottom: 6px !important;
 }
 
 .stssm-social-icons .ssm-fab,
@@ -173,6 +177,11 @@
 
 .stssm-social-icons .ssm-fa-reddit {
 	background: #ff4500;
+	color: white;
+}
+
+.stssm-social-icons .ssm-fa-threads {
+	background: #000000;
 	color: white;
 }
 

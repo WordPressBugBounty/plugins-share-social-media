@@ -1,5 +1,8 @@
 == Changelog ==
 
+= 1.6.4 =
+* Improvement: Icons updated.
+
 = 1.6.3 =
 * Mastodon added.
 * Accessibility improvements.

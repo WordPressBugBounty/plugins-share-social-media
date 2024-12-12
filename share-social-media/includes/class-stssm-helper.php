@@ -45,66 +45,87 @@ class STSSM_Helper {
 				'facebook'  => array(
 					'class' => 'ssm-fab ssm-fa-facebook-f',
 					'label' => esc_attr__( 'Click to share on Facebook', 'share-social-media' ),
+					'title' => esc_attr__( 'Facebook', 'share-social-media' ),
 				),
 				'linkedin'  => array(
 					'class' => 'ssm-fab ssm-fa-linkedin',
 					'label' => esc_attr__( 'Click to share on LinkedIn', 'share-social-media' ),
+					'title' => esc_attr__( 'LinkedIn', 'share-social-media' ),
 				),
 				'xtwitter'  => array(
 					'class' => 'ssm-fab ssm-fa-x-twitter',
 					'label' => esc_attr__( 'Click to share on X', 'share-social-media' ),
+					'title' => esc_attr__( 'X', 'share-social-media' ),
 				),
 				'bluesky'   => array(
 					'class' => 'ssm-fab ssm-fa-bluesky',
 					'label' => esc_attr__( 'Click to share on Bluesky', 'share-social-media' ),
+					'title' => esc_attr__( 'Bluesky', 'share-social-media' ),
 				),
 				'mastodon'  => array(
 					'class' => 'ssm-fab ssm-fa-mastodon',
 					'label' => esc_attr__( 'Click to share on Mastodon', 'share-social-media' ),
+					'title' => esc_attr__( 'Mastodon', 'share-social-media' ),
 				),
 				'tumblr'    => array(
 					'class' => 'ssm-fab ssm-fa-tumblr',
 					'label' => esc_attr__( 'Click to share on Tumblr', 'share-social-media' ),
+					'title' => esc_attr__( 'Tumblr', 'share-social-media' ),
 				),
 				'reddit'    => array(
 					'class' => 'ssm-fab ssm-fa-reddit',
 					'label' => esc_attr__( 'Click to share on Reddit', 'share-social-media' ),
+					'title' => esc_attr__( 'Reddit', 'share-social-media' ),
+				),
+				'threads'    => array(
+					'class' => 'ssm-fab ssm-fa-threads',
+					'label' => esc_attr__( 'Click to share on Threads', 'share-social-media' ),
+					'title' => esc_attr__( 'Threads', 'share-social-media' ),
 				),
 				'pinterest' => array(
 					'class' => 'ssm-fab ssm-fa-pinterest',
 					'label' => esc_attr__( 'Click to share on Pinterest', 'share-social-media' ),
+					'title' => esc_attr__( 'Pinterest', 'share-social-media' ),
 				),
 				'blogger'   => array(
 					'class' => 'ssm-fab ssm-fa-blogger',
 					'label' => esc_attr__( 'Click to share on Blogger', 'share-social-media' ),
+					'title' => esc_attr__( 'Blogger', 'share-social-media' ),
 				),
 				'evernote'  => array(
 					'class' => 'ssm-fab ssm-fa-evernote',
 					'label' => esc_attr__( 'Click to share on Evernote', 'share-social-media' ),
+					'title' => esc_attr__( 'Evernote', 'share-social-media' ),
 				),
 				'flipboard' => array(
 					'class' => 'ssm-fab ssm-fa-flipboard',
 					'label' => esc_attr__( 'Click to share on Flipboard', 'share-social-media' ),
+					'title' => esc_attr__( 'Flipboard', 'share-social-media' ),
 				),
 				'getpocket' => array(
 					'class' => 'ssm-fab ssm-fa-get-pocket',
 					'label' => esc_attr__( 'Click to share on Pocket', 'share-social-media' ),
+					'title' => esc_attr__( 'Pocket', 'share-social-media' ),
 				),
 				'wordpress' => array(
 					'class' => 'ssm-fab ssm-fa-wordpress-simple',
 					'label' => esc_attr__( 'Click to share on WordPress.com', 'share-social-media' ),
+					'title' => esc_attr__( 'WordPress.com', 'share-social-media' ),
 				),
 				'line'      => array(
 					'class' => 'ssm-fab ssm-fa-line',
 					'label' => esc_attr__( 'Click to share on Line', 'share-social-media' ),
+					'title' => esc_attr__( 'Line', 'share-social-media' ),
 				),
 				'whatsapp'  => array(
 					'class' => 'ssm-fab ssm-fa-whatsapp',
 					'label' => esc_attr__( 'Click to share on Whatsapp', 'share-social-media' ),
+					'title' => esc_attr__( 'Whatsapp', 'share-social-media' ),
 				),
 				'envelope'  => array(
 					'class' => 'ssm-fas ssm-fa-envelope',
 					'label' => esc_attr__( 'Click to share via Email', 'share-social-media' ),
+					'title' => esc_attr__( 'Email', 'share-social-media' ),
 				),
 			)
 		);

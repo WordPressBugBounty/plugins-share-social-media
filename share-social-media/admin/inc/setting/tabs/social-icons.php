@@ -167,8 +167,8 @@ $icons_sticky_all = STSSM_Helper::get_icons_sticky_all();
 							?>
 						<label>
 							<li class="ssm-<?php echo esc_attr( $icon ); ?>">
-								<i class="<?php echo esc_attr( $val['class'] ); ?>"></i>
-								<input <?php checked( in_array( $icon, $icons_keys, true ), true, true ); ?> name="icons_sticky[]" type="checkbox" value="<?php echo esc_attr( $icon ); ?>">&nbsp;
+								<i class="<?php echo esc_attr( $val['class'] ); ?>" title="<?php echo esc_attr( $val['title'] ); ?>"></i>
+								<input <?php checked( in_array( $icon, $icons_keys, true ), true, true ); ?> name="icons_sticky[]" type="checkbox" value="<?php echo esc_attr( $icon ); ?>" aria-label="<?php echo esc_attr( $val['title'] ); ?>" title="<?php echo esc_attr( $val['title'] ); ?>">&nbsp;
 							</li>
 						</label>
 							<?php
@@ -193,8 +193,8 @@ $icons_sticky_all = STSSM_Helper::get_icons_sticky_all();
 							?>
 						<label>
 							<li class="ssm-<?php echo esc_attr( $icon ); ?>">
-								<i class="<?php echo esc_attr( $val['class'] ); ?>"></i>
-								<input <?php checked( in_array( $icon, $icons_keys, true ), true, true ); ?> name="icons_sticky_all[]" type="checkbox" value="<?php echo esc_attr( $icon ); ?>">&nbsp;
+								<i class="<?php echo esc_attr( $val['class'] ); ?>" title="<?php echo esc_attr( $val['title'] ); ?>"></i>
+								<input <?php checked( in_array( $icon, $icons_keys, true ), true, true ); ?> name="icons_sticky_all[]" type="checkbox" value="<?php echo esc_attr( $icon ); ?>" aria-label="<?php echo esc_attr( $val['title'] ); ?>" title="<?php echo esc_attr( $val['title'] ); ?>">&nbsp;
 							</li>
 						</label>
 							<?php
@@ -219,8 +219,8 @@ $icons_sticky_all = STSSM_Helper::get_icons_sticky_all();
 							?>
 						<label>
 							<li class="ssm-<?php echo esc_attr( $icon ); ?>">
-								<i class="<?php echo esc_attr( $val['class'] ); ?>"></i>
-								<input <?php checked( in_array( $icon, $icons_keys, true ), true, true ); ?> name="icons_content[]" type="checkbox" value="<?php echo esc_attr( $icon ); ?>">&nbsp;
+								<i class="<?php echo esc_attr( $val['class'] ); ?>" title="<?php echo esc_attr( $val['title'] ); ?>"></i>
+								<input <?php checked( in_array( $icon, $icons_keys, true ), true, true ); ?> name="icons_content[]" type="checkbox" value="<?php echo esc_attr( $icon ); ?>" aria-label="<?php echo esc_attr( $val['title'] ); ?>" title="<?php echo esc_attr( $val['title'] ); ?>">&nbsp;
 							</li>
 						</label>
 							<?php

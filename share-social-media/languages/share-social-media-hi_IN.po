@@ -2,11 +2,11 @@
 # This file is distributed under the same license as the Social Icons Sticky plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Social Icons Sticky 1.6.3\n"
+"Project-Id-Version: Social Icons Sticky 1.6.4\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/share-social-"
 "media\n"
-"POT-Creation-Date: 2024-12-12T09:58:21+00:00\n"
-"PO-Revision-Date: 2024-12-12 15:28+0530\n"
+"POT-Creation-Date: 2024-12-12T12:41:22+00:00\n"
+"PO-Revision-Date: 2024-12-12 18:11+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hi_IN\n"
@@ -283,64 +283,136 @@ msgstr ""
 msgid "Click to share on Facebook"
 msgstr ""
 
-#: includes/class-stssm-helper.php:51
+#: includes/class-stssm-helper.php:48
+msgid "Facebook"
+msgstr ""
+
+#: includes/class-stssm-helper.php:52
 msgid "Click to share on LinkedIn"
 msgstr ""
 
-#: includes/class-stssm-helper.php:55
+#: includes/class-stssm-helper.php:53
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/class-stssm-helper.php:57
 msgid "Click to share on X"
 msgstr ""
 
-#: includes/class-stssm-helper.php:59
+#: includes/class-stssm-helper.php:58
+msgid "X"
+msgstr ""
+
+#: includes/class-stssm-helper.php:62
 msgid "Click to share on Bluesky"
 msgstr ""
 
 #: includes/class-stssm-helper.php:63
-msgid "Click to share on Mastodon"
+msgid "Bluesky"
 msgstr ""
 
 #: includes/class-stssm-helper.php:67
+msgid "Click to share on Mastodon"
+msgstr ""
+
+#: includes/class-stssm-helper.php:68
+msgid "Mastodon"
+msgstr ""
+
+#: includes/class-stssm-helper.php:72
 msgid "Click to share on Tumblr"
 msgstr ""
 
-#: includes/class-stssm-helper.php:71
+#: includes/class-stssm-helper.php:73
+msgid "Tumblr"
+msgstr ""
+
+#: includes/class-stssm-helper.php:77
 msgid "Click to share on Reddit"
 msgstr ""
 
-#: includes/class-stssm-helper.php:75
-msgid "Click to share on Pinterest"
+#: includes/class-stssm-helper.php:78
+msgid "Reddit"
 msgstr ""
 
-#: includes/class-stssm-helper.php:79
-msgid "Click to share on Blogger"
+#: includes/class-stssm-helper.php:82
+msgid "Click to share on Threads"
 msgstr ""
 
 #: includes/class-stssm-helper.php:83
-msgid "Click to share on Evernote"
+msgid "Threads"
 msgstr ""
 
 #: includes/class-stssm-helper.php:87
+msgid "Click to share on Pinterest"
+msgstr ""
+
+#: includes/class-stssm-helper.php:88
+msgid "Pinterest"
+msgstr ""
+
+#: includes/class-stssm-helper.php:92
+msgid "Click to share on Blogger"
+msgstr ""
+
+#: includes/class-stssm-helper.php:93
+msgid "Blogger"
+msgstr ""
+
+#: includes/class-stssm-helper.php:97
+msgid "Click to share on Evernote"
+msgstr ""
+
+#: includes/class-stssm-helper.php:98
+msgid "Evernote"
+msgstr ""
+
+#: includes/class-stssm-helper.php:102
 msgid "Click to share on Flipboard"
 msgstr ""
 
-#: includes/class-stssm-helper.php:91
-msgid "Click to share on Pocket"
-msgstr ""
-
-#: includes/class-stssm-helper.php:95
-msgid "Click to share on WordPress.com"
-msgstr ""
-
-#: includes/class-stssm-helper.php:99
-msgid "Click to share on Line"
-msgstr ""
-
 #: includes/class-stssm-helper.php:103
-msgid "Click to share on Whatsapp"
+msgid "Flipboard"
 msgstr ""
 
 #: includes/class-stssm-helper.php:107
+msgid "Click to share on Pocket"
+msgstr ""
+
+#: includes/class-stssm-helper.php:108
+msgid "Pocket"
+msgstr ""
+
+#: includes/class-stssm-helper.php:112
+msgid "Click to share on WordPress.com"
+msgstr ""
+
+#: includes/class-stssm-helper.php:113
+msgid "WordPress.com"
+msgstr ""
+
+#: includes/class-stssm-helper.php:117
+msgid "Click to share on Line"
+msgstr ""
+
+#: includes/class-stssm-helper.php:118
+msgid "Line"
+msgstr ""
+
+#: includes/class-stssm-helper.php:122
+msgid "Click to share on Whatsapp"
+msgstr ""
+
+#: includes/class-stssm-helper.php:123
+msgid "Whatsapp"
+msgstr ""
+
+#: includes/class-stssm-helper.php:127
 msgid "Click to share via Email"
+msgstr ""
+
+#: includes/class-stssm-helper.php:128
+msgid "Email"
 msgstr ""
 
 #: public/inc/class-stssm-share.php:192
