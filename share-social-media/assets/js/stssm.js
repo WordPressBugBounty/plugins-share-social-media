@@ -222,6 +222,9 @@
 				} else if ( event.target.matches( '.ssm-line i' ) ) {
 					var url = 'https://social-plugins.line.me/lineit/share?url=' + pageUrl;
 					stssmSocialWindow( url );
+				} else if ( event.target.matches( '.ssm-telegram i' ) ) {
+					var url = 'https://telegram.me/share/url?url=' + pageUrl + '&text=' + text;
+					stssmSocialWindow( url );
 				} else if ( event.target.matches( '.ssm-whatsapp i' ) ) {
 					var url = 'https://api.whatsapp.com/send?text=' + title + '%20' + pageUrl;
 					stssmSocialWindow( url );

@@ -1,5 +1,9 @@
 == Changelog ==
 
+= 1.6.5 =
+* Improvement: Icons updated.
+* Readme updated.
+
 = 1.6.4 =
 * Improvement: Icons updated.
 

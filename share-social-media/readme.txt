@@ -5,7 +5,7 @@ Donate link: https://scriptstown.com/
 Requires at least: 5.0
 Tested up to: 6.7
 Requires PHP: 7.0
-Stable tag: 1.6.4
+Stable tag: 1.6.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,6 +55,10 @@ On your WordPress, go to *Settings* -> *Social Share* menu page to configure the
 2. Icons Design Settings
 
 == Changelog ==
+
+= 1.6.5 =
+* Improvement: Icons updated.
+* Readme updated.
 
 = 1.6.4 =
 * Improvement: Icons updated.

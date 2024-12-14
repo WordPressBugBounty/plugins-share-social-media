@@ -2,11 +2,11 @@
 # This file is distributed under the same license as the Social Icons Sticky plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Social Icons Sticky 1.6.4\n"
+"Project-Id-Version: Social Icons Sticky 1.6.5\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/share-social-"
 "media\n"
-"POT-Creation-Date: 2024-12-12T12:41:22+00:00\n"
-"PO-Revision-Date: 2024-12-12 18:11+0530\n"
+"POT-Creation-Date: 2024-12-14T13:29:19+00:00\n"
+"PO-Revision-Date: 2024-12-14 18:59+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hi_IN\n"
@@ -400,18 +400,26 @@ msgid "Line"
 msgstr ""
 
 #: includes/class-stssm-helper.php:122
-msgid "Click to share on Whatsapp"
+msgid "Click to share on Telegram"
 msgstr ""
 
 #: includes/class-stssm-helper.php:123
-msgid "Whatsapp"
+msgid "Telegram"
 msgstr ""
 
 #: includes/class-stssm-helper.php:127
-msgid "Click to share via Email"
+msgid "Click to share on Whatsapp"
 msgstr ""
 
 #: includes/class-stssm-helper.php:128
+msgid "Whatsapp"
+msgstr ""
+
+#: includes/class-stssm-helper.php:132
+msgid "Click to share via Email"
+msgstr ""
+
+#: includes/class-stssm-helper.php:133
 msgid "Email"
 msgstr ""
 

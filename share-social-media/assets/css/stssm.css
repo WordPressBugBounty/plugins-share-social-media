@@ -30,7 +30,7 @@
 	font-style: normal;
 	font-weight: 900;
 	font-display: block;
-	src: url("../webfonts/fa-solid-900.woff2?v=5") format("woff2"), url("../webfonts/fa-solid-900.ttf?v=5") format("truetype");
+	src: url("../webfonts/fa-solid-900.woff2?v=6") format("woff2"), url("../webfonts/fa-solid-900.ttf?v=6") format("truetype");
 }
 
 @font-face {
@@ -38,7 +38,7 @@
 	font-style: normal;
 	font-weight: 400;
 	font-display: block;
-	src: url("../webfonts/fa-brands-400.woff2?v=5") format("woff2"), url("../webfonts/fa-brands-400.ttf?v=5") format("truetype");
+	src: url("../webfonts/fa-brands-400.woff2?v=6") format("woff2"), url("../webfonts/fa-brands-400.ttf?v=6") format("truetype");
 }
 
 .ssm-fa-facebook-f:before {
@@ -99,6 +99,10 @@
 
 .ssm-fa-line:before {
 	content: "\f3c0";
+}
+
+.ssm-fa-telegram:before {
+	content: "\f2c6";
 }
 
 .ssm-fa-whatsapp:before {
@@ -327,6 +331,11 @@
 
 .stssm-social-icons .ssm-fa-line {
 	background: #00b900;
+	color: white;
+}
+
+.stssm-social-icons .ssm-fa-telegram {
+	background: #0088cc;
 	color: white;
 }
 
