@@ -1,7 +1,13 @@
 <?php
 defined( 'ABSPATH' ) || die();
 
-$menu_tab = ( isset( $_GET['tab'] ) && ! empty( $_GET['tab'] ) ) ? sanitize_text_field( wp_unslash( $_GET['tab'] ) ) : 'social_icons';
+$default_menu_tab = 'social_icons';
+
+$menu_tab = ( isset( $_GET['tab'] ) && ! empty( $_GET['tab'] ) ) ? sanitize_text_field( wp_unslash( $_GET['tab'] ) ) : $default_menu_tab;
+
+if ( ! isset( $_GET['nonce'] ) || ! wp_verify_nonce( sanitize_text_field( wp_unslash( $_GET['nonce'] ) ), $menu_tab ) ) {
+	$menu_tab = $default_menu_tab;
+}
 
 $menu_tabs = array(
 	'social_icons' => esc_html__( 'Social Icons', 'share-social-media' ),
@@ -19,7 +25,7 @@ $menu_tabs = array(
 	foreach ( $menu_tabs as $key => $value ) {
 		$class = ( $menu_tab === $key ) ? ' nav-tab-active' : '';
 		?>
-		<a class="nav-tab<?php echo esc_attr( $class ); ?>" href="?page=stssm_settings&tab=<?php echo esc_attr( $key ); ?>">
+		<a class="nav-tab<?php echo esc_attr( $class ); ?>" href="?page=stssm_settings&tab=<?php echo esc_attr( $key ); ?>&nonce=<?php echo esc_attr( wp_create_nonce( $key ) ); ?>">
 			<?php echo esc_html( $value ); ?>
 		</a>
 		<?php

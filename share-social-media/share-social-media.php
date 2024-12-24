@@ -3,9 +3,11 @@
  * Plugin Name: Social Icons Sticky
  * Plugin URI: https://scriptstown.com/wordpress-plugins/share-social-media/
  * Description: Add social sharing icons to a post or page of your WordPress website and allow visitors to share your content on various social media sites.
- * Version: 1.6.5
+ * Version: 1.6.6
  * Author: ScriptsTown
  * Author URI: https://scriptstown.com/
+ * License: GPL v2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: share-social-media
  * Requires at least: 5.0
  * Requires PHP: 7.0
@@ -13,7 +15,7 @@
 
 defined( 'ABSPATH' ) || die();
 
-define( 'STSSM_PLUGIN_VERSION', '1.6.5' );
+define( 'STSSM_PLUGIN_VERSION', '1.6.6' );
 define( 'STSSM_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 define( 'STSSM_PLUGIN_DIR_PATH', plugin_dir_path( __FILE__ ) );
 define( 'STSSM_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );

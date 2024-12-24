@@ -5,8 +5,8 @@ Donate link: https://scriptstown.com/
 Requires at least: 5.0
 Tested up to: 6.7
 Requires PHP: 7.0
-Stable tag: 1.6.5
-License: GPLv2 or later
+Stable tag: 1.6.6
+License: GPL v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Add social sharing icons to a post or page of your WordPress website and allow visitors to share your content on various social media sites.
@@ -55,6 +55,9 @@ On your WordPress, go to *Settings* -> *Social Share* menu page to configure the
 2. Icons Design Settings
 
 == Changelog ==
+
+= 1.6.6 =
+* Code improvements.
 
 = 1.6.5 =
 * Improvement: Icons updated.

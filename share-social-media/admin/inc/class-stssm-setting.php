@@ -47,12 +47,12 @@ class STSSM_Setting {
 			die();
 		}
 
-		if ( ! isset( $_POST['save-social-share-icons'] ) || ! wp_verify_nonce( $_POST['save-social-share-icons'], 'save-social-share-icons' ) ) {
+		if ( ! isset( $_POST['save-social-share-icons'] ) || ! wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['save-social-share-icons'] ) ), 'save-social-share-icons' ) ) {
 			die();
 		}
 
 		$sticky_icons_enable    = isset( $_POST['sticky_icons_enable'] ) ? (bool) $_POST['sticky_icons_enable'] : false;
-		$sticky_icons_placement = isset( $_POST['sticky_icons_placement'] ) ? sanitize_text_field( $_POST['sticky_icons_placement'] ) : 'left';
+		$sticky_icons_placement = isset( $_POST['sticky_icons_placement'] ) ? sanitize_text_field( wp_unslash( $_POST['sticky_icons_placement'] ) ) : 'left';
 
 		$all_pages_enable     = isset( $_POST['all_pages_enable'] ) ? (bool) $_POST['all_pages_enable'] : false;
 		$pages_before_content = isset( $_POST['pages_before_content'] ) ? (bool) $_POST['pages_before_content'] : false;
@@ -62,9 +62,9 @@ class STSSM_Setting {
 		$posts_before_content = isset( $_POST['posts_before_content'] ) ? (bool) $_POST['posts_before_content'] : false;
 		$posts_after_content  = isset( $_POST['posts_after_content'] ) ? (bool) $_POST['posts_after_content'] : false;
 
-		$icons_content    = ( isset( $_POST['icons_content'] ) && is_array( $_POST['icons_content'] ) ) ? array_map( 'sanitize_text_field', $_POST['icons_content'] ) : array();
-		$icons_sticky     = ( isset( $_POST['icons_sticky'] ) && is_array( $_POST['icons_sticky'] ) ) ? array_map( 'sanitize_text_field', $_POST['icons_sticky'] ) : array();
-		$icons_sticky_all = ( isset( $_POST['icons_sticky_all'] ) && is_array( $_POST['icons_sticky_all'] ) ) ? array_map( 'sanitize_text_field', $_POST['icons_sticky_all'] ) : array();
+		$icons_content    = ( isset( $_POST['icons_content'] ) && is_array( $_POST['icons_content'] ) ) ? array_map( 'sanitize_text_field', wp_unslash( $_POST['icons_content'] ) ) : array();
+		$icons_sticky     = ( isset( $_POST['icons_sticky'] ) && is_array( $_POST['icons_sticky'] ) ) ? array_map( 'sanitize_text_field', wp_unslash( $_POST['icons_sticky'] ) ) : array();
+		$icons_sticky_all = ( isset( $_POST['icons_sticky_all'] ) && is_array( $_POST['icons_sticky_all'] ) ) ? array_map( 'sanitize_text_field', wp_unslash( $_POST['icons_sticky_all'] ) ) : array();
 
 		if ( ! in_array( $sticky_icons_placement, array_keys( STSSM_Helper::icons_placement_list_sticky() ) ) ) {
 			$sticky_icons_placement = 'left';
@@ -111,11 +111,11 @@ class STSSM_Setting {
 			die();
 		}
 
-		if ( ! isset( $_POST['save-icons-design'] ) || ! wp_verify_nonce( $_POST['save-icons-design'], 'save-icons-design' ) ) {
+		if ( ! isset( $_POST['save-icons-design'] ) || ! wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['save-icons-design'] ) ), 'save-icons-design' ) ) {
 			die();
 		}
 
-		$content_icons_shape = isset( $_POST['stssm_content_icons_shape'] ) ? sanitize_text_field( $_POST['stssm_content_icons_shape'] ) : 'circle';
+		$content_icons_shape = isset( $_POST['stssm_content_icons_shape'] ) ? sanitize_text_field( wp_unslash( $_POST['stssm_content_icons_shape'] ) ) : 'circle';
 		$content_icons_w     = isset( $_POST['stssm_size_content_icons_w'] ) ? absint( $_POST['stssm_size_content_icons_w'] ) : 30;
 		$content_icons_h     = isset( $_POST['stssm_size_content_icons_h'] ) ? absint( $_POST['stssm_size_content_icons_h'] ) : 30;
 		$content_icons_ml    = isset( $_POST['stssm_size_content_icons_ml'] ) ? absint( $_POST['stssm_size_content_icons_ml'] ) : 0;
@@ -123,7 +123,7 @@ class STSSM_Setting {
 		$content_icons_mt    = isset( $_POST['stssm_size_content_icons_mt'] ) ? absint( $_POST['stssm_size_content_icons_mt'] ) : 4;
 		$content_icons_mb    = isset( $_POST['stssm_size_content_icons_mb'] ) ? absint( $_POST['stssm_size_content_icons_mb'] ) : 4;
 
-		$sticky_icons_shape = isset( $_POST['stssm_sticky_icons_shape'] ) ? sanitize_text_field( $_POST['stssm_sticky_icons_shape'] ) : 'circle';
+		$sticky_icons_shape = isset( $_POST['stssm_sticky_icons_shape'] ) ? sanitize_text_field( wp_unslash( $_POST['stssm_sticky_icons_shape'] ) ) : 'circle';
 		$sticky_icons_w     = isset( $_POST['stssm_size_sticky_icons_w'] ) ? absint( $_POST['stssm_size_sticky_icons_w'] ) : 30;
 		$sticky_icons_h     = isset( $_POST['stssm_size_sticky_icons_h'] ) ? absint( $_POST['stssm_size_sticky_icons_h'] ) : 30;
 		$sticky_icons_mt    = isset( $_POST['stssm_size_sticky_icons_mt'] ) ? absint( $_POST['stssm_size_sticky_icons_mt'] ) : 6;
@@ -171,7 +171,7 @@ class STSSM_Setting {
 			die();
 		}
 
-		if ( ! isset( $_POST['reset-plugin'] ) || ! wp_verify_nonce( $_POST['reset-plugin'], 'reset-plugin' ) ) {
+		if ( ! isset( $_POST['reset-plugin'] ) || ! wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['reset-plugin'] ) ), 'reset-plugin' ) ) {
 			die();
 		}
 
