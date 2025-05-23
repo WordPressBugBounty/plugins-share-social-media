@@ -102,11 +102,6 @@ class STSSM_Helper {
 					'label' => esc_attr__( 'Click to share on Flipboard', 'share-social-media' ),
 					'title' => esc_attr__( 'Flipboard', 'share-social-media' ),
 				),
-				'getpocket' => array(
-					'class' => 'ssm-fab ssm-fa-get-pocket',
-					'label' => esc_attr__( 'Click to share on Pocket', 'share-social-media' ),
-					'title' => esc_attr__( 'Pocket', 'share-social-media' ),
-				),
 				'wordpress' => array(
 					'class' => 'ssm-fab ssm-fa-wordpress-simple',
 					'label' => esc_attr__( 'Click to share on WordPress.com', 'share-social-media' ),
@@ -137,7 +132,7 @@ class STSSM_Helper {
 	}
 
 	public static function icons_content() {
-		return array( 'facebook', 'linkedin', 'xtwitter', 'bluesky', 'mastodon', 'tumblr', 'reddit', 'pinterest', 'blogger', 'evernote', 'getpocket', 'wordpress', 'telegram', 'whatsapp', 'envelope' );
+		return array( 'facebook', 'linkedin', 'xtwitter', 'bluesky', 'mastodon', 'tumblr', 'reddit', 'threads', 'pinterest', 'blogger', 'evernote', 'wordpress', 'telegram', 'whatsapp', 'envelope' );
 	}
 
 	public static function icons_sticky_side() {
@@ -145,7 +140,7 @@ class STSSM_Helper {
 	}
 
 	public static function icons_sticky_all() {
-		return array( 'facebook', 'linkedin', 'xtwitter', 'bluesky', 'mastodon', 'tumblr', 'reddit', 'pinterest', 'blogger', 'evernote', 'getpocket', 'wordpress', 'telegram', 'whatsapp', 'envelope' );
+		return array( 'facebook', 'linkedin', 'xtwitter', 'bluesky', 'mastodon', 'tumblr', 'reddit', 'threads', 'pinterest', 'blogger', 'evernote', 'wordpress', 'telegram', 'whatsapp', 'envelope' );
 	}
 
 	public static function get_sticky_placement() {

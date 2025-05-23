@@ -3,7 +3,7 @@ Contributors: scriptstown
 Tags: social share, social icons, social media, social sharing, sticky icons
 Donate link: https://scriptstown.com/
 Tested up to: 6.8
-Stable tag: 1.7.0
+Stable tag: 1.7.1
 License: GPL v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -53,6 +53,10 @@ On your WordPress, go to *Settings* -> *Social Share* menu page to configure the
 2. Icons Design Settings
 
 == Changelog ==
+
+= 1.7.1 =
+* Tested up to 6.8.1.
+* Improvement: Icons updated.
 
 = 1.7.0 =
 * Tested up to 6.8.

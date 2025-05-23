@@ -213,9 +213,6 @@
 				} else if ( event.target.matches( '.ssm-flipboard i' ) ) {
 					var url = 'https://share.flipboard.com/bookmarklet/popout?v=2&title=' + title + '&url=' + pageUrl;
 					stssmSocialWindow( url );
-				} else if ( event.target.matches( '.ssm-getpocket i' ) ) {
-					var url = 'https://getpocket.com/edit?url=' + pageUrl;
-					stssmSocialWindow( url );
 				} else if ( event.target.matches( '.ssm-wordpress i' ) ) {
 					var url = 'https://wordpress.com/press-this.php?u=' + pageUrl + '&t=' + title + '&s=' + desc;
 					stssmSocialWindow( url );

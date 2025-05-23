@@ -30,7 +30,7 @@
 	font-style: normal;
 	font-weight: 900;
 	font-display: block;
-	src: url("../webfonts/fa-solid-900.woff2?v=6") format("woff2"), url("../webfonts/fa-solid-900.ttf?v=6") format("truetype");
+	src: url("../webfonts/fa-solid-900.woff2?v=7") format("woff2"), url("../webfonts/fa-solid-900.ttf?v=7") format("truetype");
 }
 
 @font-face {
@@ -38,7 +38,7 @@
 	font-style: normal;
 	font-weight: 400;
 	font-display: block;
-	src: url("../webfonts/fa-brands-400.woff2?v=6") format("woff2"), url("../webfonts/fa-brands-400.ttf?v=6") format("truetype");
+	src: url("../webfonts/fa-brands-400.woff2?v=7") format("woff2"), url("../webfonts/fa-brands-400.ttf?v=7") format("truetype");
 }
 
 .ssm-fa-facebook-f:before {
@@ -87,10 +87,6 @@
 
 .ssm-fa-flipboard:before {
 	content: "\f44d";
-}
-
-.ssm-fa-get-pocket:before {
-	content: "\f265";
 }
 
 .ssm-fa-wordpress-simple:before {
@@ -316,11 +312,6 @@
 
 .stssm-social-icons .ssm-fa-flipboard {
 	background: #f52828;
-	color: white;
-}
-
-.stssm-social-icons .ssm-fa-get-pocket {
-	background: #ef4056;
 	color: white;
 }
 

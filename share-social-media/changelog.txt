@@ -1,5 +1,9 @@
 == Changelog ==
 
+= 1.7.1 =
+* Tested up to 6.8.1.
+* Improvement: Icons updated.
+
 = 1.7.0 =
 * Tested up to 6.8.
 
