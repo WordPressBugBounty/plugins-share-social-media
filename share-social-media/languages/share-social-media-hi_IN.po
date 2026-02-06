@@ -2,11 +2,11 @@
 # This file is distributed under the same license as the Social Icons Sticky plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Social Icons Sticky 1.7.2\n"
+"Project-Id-Version: Social Icons Sticky 1.7.4\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/share-social-"
 "media\n"
-"POT-Creation-Date: 2025-08-14T07:16:05+00:00\n"
-"PO-Revision-Date: 2025-08-14 12:46+0530\n"
+"POT-Creation-Date: 2026-01-12T02:30:13+00:00\n"
+"PO-Revision-Date: 2026-01-12 08:00+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hi_IN\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.8\n"
 "X-Domain: share-social-media\n"
 
 #. Plugin Name of the plugin
@@ -55,6 +55,7 @@ msgstr "सेटिंग्स"
 
 #. translators: %s: Settings page link.
 #: admin/inc/class-stssm-setting.php:23
+#, php-format
 msgid ""
 "To get started with Social Icons Sticky, visit our <a href=\"%s\" "
 "target=\"_blank\">settings page</a>."

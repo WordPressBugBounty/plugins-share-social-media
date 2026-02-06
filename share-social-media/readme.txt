@@ -2,8 +2,8 @@
 Contributors: scriptstown
 Tags: social share, social icons, social media, social sharing, sticky icons
 Donate link: https://scriptstown.com/
-Tested up to: 6.8
-Stable tag: 1.7.2
+Tested up to: 6.9
+Stable tag: 1.7.4
 License: GPL v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -53,6 +53,14 @@ On your WordPress, go to *Settings* -> *Social Share* menu page to configure the
 2. Icons Design Settings
 
 == Changelog ==
+
+= 1.7.4 =
+* Readme updated.
+* Tested compatibility with PHP 8.5.
+
+= 1.7.3 =
+* Code improvements.
+* Tested up to 6.9.
 
 = 1.7.2 =
 * Code improvements.
@@ -218,59 +226,3 @@ On your WordPress, go to *Settings* -> *Social Share* menu page to configure the
 = 1.2.0 =
 * Updated Font Awesome library to 5.15.1.
 * Tested up to 5.6.
-
-= 1.1.6 =
-* Updated Font Awesome library.
-
-= 1.1.5 =
-* Added welcome notice on activation.
-
-= 1.1.4 =
-* Tested up to 5.5.
-
-= 1.1.3 =
-* Tweaked sticky icons position from the top.
-
-= 1.1.2 =
-* Improved logic for outputting the social icons.
-
-= 1.1.1 =
-* Changed default shape, width and height of social icons.
-* Updated Font Awesome library.
-
-= 1.1.0 =
-* Changed action hook used for redirecting to settings.
-
-= 1.0.9 =
-* Updated readme file.
-
-= 1.0.8 =
-* Added Plugin URI.
-* Updated Font Awesome library.
-
-= 1.0.7 =
-* Fixed icons alignment issue.
-* Tested up to 5.4.
-
-= 1.0.6 =
-* Code refactor.
-
-= 1.0.5 =
-* Added icons design settings.
-* Tested up to 5.3.
-
-= 1.0.4 =
-* Fixed sticky modal overlay bug.
-
-= 1.0.3 =
-* Updated font awesome library.
-* Improved sticky icons modal design.
-
-= 1.0.2 =
-* Removed footer text from icons modal.
-
-= 1.0.1 =
-* Added new social icon.
-
-= 1.0.0 =
-* New release.

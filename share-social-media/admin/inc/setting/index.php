@@ -1,4 +1,4 @@
-<?php
+<?php // phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound -- File is loaded within a function, variables are not global.
 defined( 'ABSPATH' ) || die();
 
 $menu_tab = ( isset( $_GET['tab'] ) && ! empty( $_GET['tab'] ) ) ? sanitize_text_field( wp_unslash( $_GET['tab'] ) ) : 'social_icons'; // phpcs:ignore WordPress.Security.NonceVerification.Recommended -- Used to determine the active tab, not saved to the database.
