@@ -1,5 +1,12 @@
 == Changelog ==
 
+= 1.7.6 =
+* Improvement: Settings page.
+
+= 1.7.5 =
+* Tested up to 7.0.
+* Updated Font Awesome library to 7.2.0.
+
 = 1.7.4 =
 * Readme updated.
 * Tested compatibility with PHP 8.5.

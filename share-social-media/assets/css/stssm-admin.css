@@ -10,11 +10,11 @@
 }
 
 .ssm-fas {
-	font-family: 'SSM Font Awesome 6 Free';
+	font-family: 'SSM Font Awesome 7 Free';
 }
 
 .ssm-fab {
-	font-family: 'SSM Font Awesome 6 Brands';
+	font-family: 'SSM Font Awesome 7 Brands';
 }
 
 .ssm-fas {
@@ -26,19 +26,19 @@
 }
 
 @font-face {
-	font-family: 'SSM Font Awesome 6 Free';
+	font-family: 'SSM Font Awesome 7 Free';
 	font-style: normal;
 	font-weight: 900;
 	font-display: block;
-	src: url("../webfonts/fa-solid-900.woff2?v=7") format("woff2"), url("../webfonts/fa-solid-900.ttf?v=7") format("truetype");
+	src: url("../webfonts/fa-solid-900.woff2?v=7.2.0") format("woff2"), url("../webfonts/fa-solid-900.ttf?v=7.2.0") format("truetype");
 }
 
 @font-face {
-	font-family: 'SSM Font Awesome 6 Brands';
+	font-family: 'SSM Font Awesome 7 Brands';
 	font-style: normal;
 	font-weight: 400;
 	font-display: block;
-	src: url("../webfonts/fa-brands-400.woff2?v=7") format("woff2"), url("../webfonts/fa-brands-400.ttf?v=7") format("truetype");
+	src: url("../webfonts/fa-brands-400.woff2?v=7.2.0") format("woff2"), url("../webfonts/fa-brands-400.ttf?v=7.2.0") format("truetype");
 }
 
 .ssm-fa-facebook-f:before {
@@ -403,7 +403,7 @@
 .stssm-pro .stssm-pro-link {
 	display: inline-block;
 	text-decoration: none;
-	padding: 9px 12px 10px;
+	padding: 12px 15px 12px;
 	margin-right: 10px;
 	margin-bottom: 5px;
 	background-color: #5478e4;
