@@ -30,7 +30,7 @@
 	font-style: normal;
 	font-weight: 900;
 	font-display: block;
-	src: url("../webfonts/fa-solid-900.woff2?v=7.2.0") format("woff2"), url("../webfonts/fa-solid-900.ttf?v=7.2.0") format("truetype");
+	src: url("../webfonts/fa-solid-900.woff2?v=7.3.1") format("woff2"), url("../webfonts/fa-solid-900.ttf?v=7.3.1") format("truetype");
 }
 
 @font-face {
@@ -38,7 +38,7 @@
 	font-style: normal;
 	font-weight: 400;
 	font-display: block;
-	src: url("../webfonts/fa-brands-400.woff2?v=7.2.0") format("woff2"), url("../webfonts/fa-brands-400.ttf?v=7.2.0") format("truetype");
+	src: url("../webfonts/fa-brands-400.woff2?v=7.3.1") format("woff2"), url("../webfonts/fa-brands-400.ttf?v=7.3.1") format("truetype");
 }
 
 .ssm-fa-facebook-f:before {
